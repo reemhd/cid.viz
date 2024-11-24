@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  // import CidrCanvas from '../components/CidrCanvas.svelte';
+  import CidrInfo from '../components/CidrInfo.svelte';
+  import CidrInput from '../components/CidrInput.svelte';
+</script>
+
+<CidrInput /><br />
+<CidrInfo /><br />
+<!-- <CidrCanvas /> -->
